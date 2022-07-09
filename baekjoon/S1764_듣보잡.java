@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.StringTokenizer;
 
 //https://www.acmicpc.net/problem/1764
-public class S_1764_듣보잡 {
+public class S1764_듣보잡 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
