@@ -3,7 +3,7 @@ package baekjoon;
 import java.io.*;
 import java.util.Arrays;
 import java.util.StringTokenizer;
-
+//https://www.acmicpc.net/problem/10815
 public class S10815_숫자카드 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
