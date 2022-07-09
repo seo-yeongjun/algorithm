@@ -1,9 +1,7 @@
 package baekjoon;
 
-
 import java.util.HashSet;
 import java.util.Scanner;
-
 
 //https://www.acmicpc.net/problem/11478
 public class S11478_서로다른부분문자열의개수 {
