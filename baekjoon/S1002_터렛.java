@@ -3,6 +3,7 @@ package baekjoon;
 import java.io.*;
 import java.util.StringTokenizer;
 
+//https://www.acmicpc.net/problem/1002
 public class S1002_터렛 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
