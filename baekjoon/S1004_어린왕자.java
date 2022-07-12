@@ -28,7 +28,10 @@ public class S1004_어린왕자 {
                 int x = Integer.parseInt(st.nextToken());
                 int y = Integer.parseInt(st.nextToken());
                 int r = Integer.parseInt(st.nextToken());
-                if ((Math.pow(r, 2) > (Math.pow(x - sx, 2) + Math.pow(y - sy, 2)) && Math.pow(r, 2) <= (Math.pow(x - gx, 2) + Math.pow(y - gy, 2))) || (Math.pow(r, 2) <= (Math.pow(x - sx, 2) + Math.pow(y - sy, 2)) && Math.pow(r, 2) > (Math.pow(x - gx, 2) + Math.pow(y - gy, 2))))
+                double v = Math.pow(x - sx, 2) + Math.pow(y - sy, 2);
+                double v1 = Math.pow(r, 2);
+                double v2 = Math.pow(x - gx, 2) + Math.pow(y - gy, 2);
+                if ((v1> v && v1 <= v2) || (v1 <= v && v1 > v2))
                     answer++;
             }
             bw.write(answer + "\n");
